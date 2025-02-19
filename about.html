@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiles-Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Shree Senthur Tiles</h1>
+        <div class="navbar-links">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="model.html">Models</a></p>
+            <p><a href="about.html">About Us</a></p>
+            <p><a href="review.html">Review</a></p>
+
+        </div>
+        <div class="navbar-menu-tougle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars" ></i>
+
+        </div>
+    </nav>
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closenavbar()"><i class="fa-solid fa-xmark"></i></p>
+       
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="model.html">Models</a></p>
+            <p class="side-navbar-link"><a href="about.html">About Us</a></p>
+            <p class="side-navbar-link"><a href="review.html">Review</a></p>
+        </div>
+    </div>
+    <!--Header-->
+    <div class="about-container">
+        <!-- First Image -->
+        <div class="aboutimg">
+          <img src="Backgroundimage.png" alt="About Us Background">
+        </div>
+    
+        <!-- About Us Content -->
+        <div class="aboutus">
+          <h1>About Us</h1>
+          <p>
+            Shree Senthur Tiles was established in the year 2014 by its visionary founder, Mr. Madhanagopal, the son of Mr. Nallasamy. 
+            Initially, our business focused solely on tiles, but as we grew and expanded, we diversified into pipes and bathroom appliances 
+            to meet the evolving needs of our customers. Over the past decade, we have built a strong reputation and have successfully 
+            served more than 700 satisfied customers.
+          </p>
+          <p>
+            Our product range includes an extensive variety of tiles, such as bathroom tiles, elevation tiles, flooring tiles, and pooja tiles, 
+            each carefully selected to enhance the aesthetic appeal and functionality of your spaces. At Shree Senthur Tiles, we are committed 
+            to quality and excellence, dealing exclusively in premium brands like KAG and Tecton to ensure 100% customer satisfaction with durable 
+            and superior products. Our unwavering focus on quality and customer satisfaction has made us a trusted name in the industry, and we 
+            continue to uphold these values in everything we do.
+          </p>
+        </div>
+    
+        <!-- Second Image -->
+        <div class="aboutimgs">
+          <img src="Backgroundimage.jpg.png" alt="Another Background Image">
+        </div>
+      </div>
+      <div class="last">
+        
+        <div class="lastini">
+          <h2>Follow Us On</h2>
+          <div class="insta">
+            <a href="https://www.instagram.com/poorna_senthur/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+    
+        
+        <div class="lastini">
+          <h2>Address</h2>
+          <h3>Gandhinagar</h3>
+          <h3>Kunnathur, Tiruppur (DT)</h3>
+          <h3>Tamil Nadu 638103</h3>
+        </div>
+    
+        
+        <div class="lastini">
+          <h2>Contact Us</h2>
+          <h3>poornasenthur31@gmail.com</h3>
+          <h3>+91 9700002000</h3>
+        </div>
+      </div>
+    
+    
+            
+        
+
+   
+    
+    
+   
+
+    
+    
+    <script>
+        var a = document.querySelector(".side-navbar")
+    function shownavbar() {
+        a.style.left="0%"
+    
+    }
+    function closenavbar(){
+        a.style.left="-60%"
+    }
+    
+    </script>
+</body>
+
+</html>
